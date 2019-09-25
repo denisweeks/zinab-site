@@ -16,6 +16,7 @@
     "bootstrap": "3.3.2",
     "cross-env": "1.0.8",
     "express": "4.13.4",
+    "pngquant-bin@": "3.0.0",
     "font-awesome": "4.1.0",
     "i18n": "0.8.3",
     "jquery": "1.9",
