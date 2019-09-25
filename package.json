@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
     "build": "cross-env NODE_ENV=production webpack -p --colors",
-    "start": "node app.js"
+    "start": "node app.js sitestop",
+    "stop": "killall -SIGINT sitestop"
   },
   "dependencies": {
     "Placeholdem": "git+https://github.com/jackrugile/placeholdem.git#v1.0.1",
