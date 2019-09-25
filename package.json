@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "Placeholdem": "git+https://github.com/jackrugile/placeholdem.git#v1.0.1",
-    "angular": "^1.5.5",
+    "angular": "^1.5.9",
     "angular-touch": "1.5.8",
     "angular-ui-bootstrap": "^1.3.2",
     "body-parser": "^1.15.1",
