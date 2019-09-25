@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Circuit functional training",
+    "lecturers": [
+      {
+        "firstName": "Оксана",
+        "lastName": "Мукосеева",
+        "avatar": "oksana_mukoseeva.jpg",
+        "fb": ""
+      }
+    ],
+    "people": 20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "10:00",
+        "end": "11:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "Aqua power",
+    "lecturers": [
+      {
+        "firstName": "Юрий",
+        "lastName": "Кудряшов",
+        "avatar": "yara_kudrashko.jpg",
+        "fb": ""
+      }
+    ],
+    "people": 20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "11:00",
+        "end": "12:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "Aqua Zumba",
+    "lecturers": [
+      {
+        "firstName": "Анна",
+        "lastName": "Федькив",
+        "avatar": "anna_fedkiv.jpg",
+        "fb": ""
+      }
+    ],
+    "people": 20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "12:00",
+        "end": "13:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "Aqua Interval",
+    "lecturers": [
+      {
+        "firstName": "Виталий",
+        "lastName": "Лисенко",
+        "avatar": "vitaliy_lisenko.jpg",
+        "fb": ""
+      }
+    ],
+    "people":20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "14:00",
+        "end": "15:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "Aqua Noodles",
+    "lecturers": [
+      {
+        "firstName": "Полина",
+        "lastName": "Бонахова",
+        "avatar": "polina_bonahova.jpg",
+        "fb": ""
+      }
+    ],
+    "people":20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "15:00",
+        "end": "16:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "Monstre Traning",
+    "lecturers": [
+      {
+        "firstName": "Валентина",
+        "lastName": "Квита",
+        "avatar": "valentina_kvita.jpg",
+        "fb": ""
+      }
+    ],
+    "people":20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "16:00",
+        "end": "17:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "Aqua Dance Party",
+    "lecturers": [
+      {
+        "firstName": "Елена",
+        "lastName": "Котова",
+        "avatar": "elena_kotova.jpg",
+        "fb": ""
+      }
+    ],
+    "people":20,
+    "duration": "1 година",
+    "date_info": {
+      "date": "02.10.2016",
+      "day": "неділя",
+      "time": {
+        "start": "17:00",
+        "end": "18:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "басейн",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  }
+]

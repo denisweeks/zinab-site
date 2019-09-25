@@ -1,0 +1,76 @@
+#coaches-certification {
+  background-color: white;
+
+  p {
+    font-size: 16px;
+  }
+  .sub-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3D4351;
+  }
+
+  .height-light {
+    color: #66cc99 !important;
+    font-weight: 600;
+  }
+
+  .price {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .no-list-style{
+    list-style: none;
+  }
+  .coach-list {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    a:hover {
+      color: #66cc99;
+      text-decoration: none;
+
+    }
+
+    li {
+      font-size: 15px;
+      line-height: 25px;
+      color: rgba(28, 54, 83, 0.6);
+      padding-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .coach-list {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  .list-tittle {
+    font-size: 15px;
+    color: #3D4351;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .middle-border {
+    border-left: solid 1px #E6E9EA;
+  }
+
+  .fa {
+    margin-right: 20px;
+    border: 2px solid #66cc99;
+    color: #66cc99;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.25s ease-in-out;
+    width: 38px;
+    height: 38px;
+    text-align: center
+  }
+
+  .list-block {
+    padding: 15px 0;
+  }
+}

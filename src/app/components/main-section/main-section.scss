@@ -1,0 +1,120 @@
+@import '../../../assets/styles/sass/variables';
+
+.main-section {
+  margin-top: 100px;
+
+  .main-title {
+    font-size: 52px;
+    font-size: 5vh;
+  }
+
+  .hash-tag {
+    font-size: 50px;
+    font-size: 4vh;
+  }
+
+  .main-text {
+    //font-size: 2vh;
+    font-size: 16px;
+  }
+
+  .main-image {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .section-links {
+    @media (max-width: 480px) {
+      .main-btn {
+        font-size: 12px;
+        padding: 10px 20px;
+      }
+    }
+  }
+
+  .main-btn {
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    outline: none;
+    font-size: 16px;
+    //font-size: 2.7vh;
+
+    &:hover {
+      background: #339999;
+      outline: none;
+    }
+    &:active {
+      background: #339999;
+      outline: none;
+    }
+  }
+
+  .social {
+    margin: 2vh;
+  }
+
+  .main-social-link {
+    margin: 0 8px;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.25s ease-in-out;
+    border: 2px solid white;
+    text-align: center;
+
+    &:hover {
+      background: #339999;
+      outline: none;
+    }
+    &:active {
+      background: #339999;
+      outline: none;
+    }
+
+    i {
+      width: 1em;
+      color: white;
+
+      &:hover {
+        color: #66cc99;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-sm) {
+  //.main-section {
+  //  .main-section-left {
+  //    text-align: justify;
+  //    h2 {
+  //      margin-top: 18vh;
+  //      text-align: center;
+  //    }
+  //  }
+  //}
+}
+
+@media (max-width: $screen-xs) {
+  .main-section {
+    //.main-section-left {
+    //  text-align: justify;
+    //
+    //  h2 {
+    //    margin-top: 3vh;
+    //    text-align: center;
+    //  }
+    //}
+    //p {
+    //  font-size: 17px;
+    //}
+    //.btn-primary {
+    //  padding: 5px 10px;
+    //}
+  }
+}
+
+//@media (max-width: @screen-xs-max) { ... }
+//@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+//@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+//@media (min-width: @screen-lg-min) { ... }

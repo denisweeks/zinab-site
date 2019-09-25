@@ -1,0 +1,55 @@
+@import "../css/common.css";
+@import "../css/animate.css";
+@import "./fonts";
+@import "./font-size";
+@import "./app";
+
+body {
+  overflow-x: hidden;
+  font-family: 'LatoLight', 'Lato', Arial, serif;
+  color: #666666;
+  //width: 100% !important;;
+  //max-width: 100% !important;
+  -webkit-font-smoothing: antialiased;
+
+  a {
+    font-family: 'Lato', Arial, serif;
+    color: #339999;
+  }
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #666666;
+    font-family: 'LatoLight', Arial, serif;
+  }
+
+  .modal-open {
+    overflow: hidden;
+  }
+
+  .shadow {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+  }
+
+  .scrollpoint {
+    opacity: 1;
+  }
+
+  .scrollpoint.active {
+    opacity: 1;
+  }
+
+  .no-margin {
+    margin: 0 !important;
+  }
+  .no-padding {
+    padding: 0 !important;
+  }
+
+  .section-title {
+    display: inline-block;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,92 @@
+<section class="mindbody-schedule">
+  <div class="container">
+    <div class="section-heading scrollpoint sp-effect3">
+      <div class="mb-logo-1"><img src="../../../assets/images/btns/bodyway_ava.png"></div>
+      <h1>Програма Mind&Body</h1>
+      <div class="mb-logo-2"><img src="../../../assets/images/btns/bodyway_ava.png"></div>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <div class="schedule-table">
+    <div class="container-fluid">
+      <br>
+      <div class="text-center">
+        <div class="schedule-row masterclass-schedule-row schedule-info">МАЙСТЕР-КЛАС</div>
+        <div class="schedule-row lecture-schedule-row schedule-info">ЛЕКЦІЯ</div>
+        <div class="schedule-row workshop-schedule-row schedule-info">СЕМІНАР/ВОРКШОП</div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 scene" ng-repeat="scene in mindbodyschedule">
+          <h4 class="text-center fitness-font-xl">{{ ::scene.title }}</h4>
+          <div modal-info info="item" ng-repeat="item in scene.lectures">
+            <div class="schedule-row {{ item.description ? 'hover-affect' : '' }} ng-class:item.type">
+              <span class="time">{{ ::item.time }}</span>
+              <span class="class" ng-click="select(item.id);">
+                <span ng-bind-html="::item.instructor"></span>
+                <i class="fa fa-arrow-down"  ng-if="item.description"></i>
+              </span>
+              <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name}} <br></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--h1 class="text-wait text-center">ОЧІКУЙТЕ НА ВІДКРИТТЯ РЕЄСТРАЦІЇ!!!</h1-->
+
+      <table class="table price-table" align="center">
+        <thead class="thead-dark">
+        <tr>
+          <th scope="col">Формат</th>
+          <th scope="col">Тривалість</th>
+          <th scope="col">Вартість</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="masterclass-row">
+          <td scope="row">Майстер-клас</td>
+          <td>50 хв</td>
+          <td>250 грн</td>
+        </tr>
+        <tr class="lecture-row">
+          <td scope="row">Лекція</td>
+          <td>75 хв</td>
+          <td>300 грн (з пакетом день 19 жовтня та 2 дні БЕЗКОШТОВНО!)</td>
+        </tr>
+        <tr class="day-row">
+          <td scope="row">Пакет ДЕНЬ</td>
+          <td>19 жовтня</td>
+          <td>1200 грн</td>
+        </tr>
+        <tr class="day-row">
+          <td scope="row">Пакет ДЕНЬ</td>
+          <td>20 жовтня</td>
+          <td>1200 грн</td>
+        </tr>
+        <tr class="day-row">
+          <td scope="row">Пакет 2 ДНІ</td>
+          <td>19-20 жовтня</td>
+          <td>1800 грн</td>
+        </tr>
+        </tbody>
+      </table>
+
+      <div class="text-center">
+        <button type="button" class="btn btn-primary btn-lg">
+          <span><a href="https://docs.google.com/forms/d/e/1FAIpQLScZMy4POvegSaAxg5UnV9UDlJ-iAZxzdRLm4-mIURmHz_3XSg/viewform" target="_blank">Реєстрація</a></span>
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin: 0 auto; float: inherit;">
+          <h3 class="card-title text-center">
+            Інформація і питання:<br>
+            <a href="tel:+380673006700">+380 67 300 67 00</a><br>
+          </h3>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+</section>

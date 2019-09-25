@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fitness Lviv</title>
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="description" content="Команда професіоналів, які знають, що потрібно тренеру!">
+  <meta name="keywords" content="Lviv Fitness Weekend, Львів, Спорт, Фітнес">
+  <meta name="author" content="Анна Лащук">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+
+  <meta property="og:url"  content="http://lviv-fitness.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Lviv Fitness Weekend 19.10-20.10.2019"/>
+  <meta property="og:site_name" content="Lviv Fitness Weekend"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:image" content="http://lviv-fitness.com/open_graph_logo.png"/>
+  <meta property="og:image:type" content="image/png"/>
+  <meta property="og:locale" content="uk_UA"/>
+
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" sizes="16x16" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  {% for (var css in o.htmlWebpackPlugin.files.css) { %}
+  <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
+  {% } %}
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83126406-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- Facebook Conversion Code for LvivFitnessWeek -->
+  <script>(function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+      var fbds = document.createElement('script');
+      fbds.async = true;
+      fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(fbds, s);
+      _fbq.loaded = true;
+    }
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', '6053574884666', {'value':'0.01','currency':'RUB'}]);
+  </script>
+  <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6053574884666&cd[value]=0.01&cd[currency]=RUB&noscript=1" /></noscript>
+  
+  <script>
+      window.onload = function () {
+          // Splash video on start
+          /*
+          var splashvideo = document.getElementById('splashvideo');
+          splashvideo.play();
+
+          var splash = document.querySelector('splashvideo').play();
+
+          if (splash !== undefined) {
+              splash.catch(error => {
+                  console.log('Auto-play was prevented. Show a UI element to let the user manually start playback');
+              }).then(() => {
+                  console.log('Auto-play started');
+              });
+          }
+          */
+      }
+
+      /*
+      setTimeout(function() {
+          $("#splashscreen").hide();
+          $("#content").show('slow');
+      }, 2000);
+
+      function hideSplashscreenHandler() {
+          $("#splashscreen").hide();
+          $("#content").show('slow');
+      }
+      */
+  </script>
+</head>
+
+<body id="top" ng-controller="MainCtrl as vm">
+
+<!--div id="splashscreen" style="position: fixed; top: 0; width: 100%; height: 100%; z-index: -1; background: linear-gradient(-45deg,#6c9,#399);">
+    <video id="splashvideo" autoplay playsinline controls muted style="width:100%; height:100%" onended="hideSplashscreenHandler();">
+        <source id="mp4" src="splashscreen.mp4" type="video/mp4">
+        <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+</div-->
+
+<div id="content">
+
+    <header class="main-header">
+      <nav-menu></nav-menu>
+        <h2 class="main-gensponsor-title">
+          <div class="years5">5 років грандіозного фітнесу</div>
+        </h2>
+        <br>
+        <div class="row section-links text-center">
+            <a href="#hiitworks" class="main-btn btn btn-primary a-get-cert">
+                <img src="hiitworks.png" alt="Hiitworks" title="Hiitworks"><br>19 жовтня
+                <div class="pointer-hand-1-l"><img src="arrow_d.gif" width="36px"></div>
+                <div class="pointer-hand-1-r"><img src="arrow_d.gif" width="36px"></div>
+            </a>
+        </div>
+        <br>
+        <div class="row section-links text-center">
+            <a href="#mindbody" class="main-btn btn btn-primary a-get-cert">
+                <img src="bodyway.png" alt="Mind&Body" title="Mind&Body"><br>Mind&Body - 19, 20 жовтня
+                <div class="pointer-hand-1-l"><img src="arrow_d.gif" width="36px"></div>
+                <div class="pointer-hand-1-r"><img src="arrow_d.gif" width="36px"></div>
+            </a>
+        </div>
+        <br>
+        <div class="row section-links text-center">
+          <a href="#zumba" class="main-btn btn btn-primary a-get-cert">
+              <img src="zumba.png" alt="Zumba" title="Zumba"><br>20 жовтня
+              <div class="pointer-hand-1-l"><img src="arrow_d.gif" width="36px"></div>
+              <div class="pointer-hand-1-r"><img src="arrow_d.gif" width="36px"></div>
+          </a>
+        </div>
+
+      <div class="social text-center">
+        <a href="https://www.youtube.com/channel/UCC_pPGQBC69uzt1tOrYhQkw" target="_blank" class="scrollpoint sp-effect3 animated fadeInDown">
+          <i class="fa fa-youtube-square fa-3x"></i>
+        </a>
+        <a href="https://www.facebook.com/LvivFitnessWeekend/" target="_blank" class="scrollpoint sp-effect3 animated fadeInDown">
+          <i class="fa fa-facebook fa-3x"></i>
+        </a>
+          <a href="https://www.instagram.com/lvivfitnessweekend/" target="_blank" class="scrollpoint sp-effect3 animated fadeInDown">
+              <i class="fa fa-instagram fa-3x"></i>
+          </a>
+      </div>
+        <div class="left-title">ЗАЛИШИЛОСЬ ДНІВ<div class="calendar"><span id="day-counter"></span><em></em></div></div>
+    </header>
+
+    <header class="main-header" style="display: none;">
+      <main-section></main-section>
+    </header>
+
+    <fitness-organizers></fitness-organizers>
+    <fitness-convention></fitness-convention>
+
+    <a id="mindbody"></a><br>
+    <mindbody-schedule></mindbody-schedule>
+
+
+    <a id="hiitworks"></a><br>
+    <hiitworks-schedule></hiitworks-schedule>
+
+    <a id="zumba"></a><br>
+    <zumba-schedule></zumba-schedule>
+
+    <a id="seminars"></a>
+    <hiitworks-workshops></hiitworks-workshops>
+
+    <!--fitness-schedule></fitness-schedule>
+    <a id="buy_tickets"></a>
+    <fitness-tickets><a id="tickets3"></a></fitness-tickets>
+    <a id="seminars"></a-->
+    <!--fitness-workshops></fitness-workshops-->
+
+    <!--edem-resort style="display: none;"></edem-resort-->
+
+    <!--forum-workshop></forum-workshop>
+    <a id="forum"></a>
+    <forum-presenter></forum-presenter>
+    <forum-tickets></forum-tickets>
+    <forum-schedule></forum-schedule>
+    <forum-business2018 style="display: none;"></forum-business2018>
+    <forum-coaches2018></forum-coaches2018>
+    <forum-business style="display: none;"></forum-business>
+    <forum-ukro></forum-ukro>
+    <forum-utro-tickets></forum-utro-tickets-->
+
+    <!--coaches-certification style="display: none;"></coaches-certification-->
+
+    <!--aqua-presenters style="display: none;"></aqua-presenters>
+    <aqua-schedule style="display: none;"></aqua-schedule>
+    <aqua-workshops style="display: none;"></aqua-workshops>
+    <aqua-masters style="display: none;"></aqua-masters-->
+
+    <!--after-party style="display: none;"></after-party-->
+
+    <!--demo-photo></demo-photo-->
+    <demo-video></demo-video>
+    <!--partnership style="display: none;"></partnership-->
+    <fitness-partners></fitness-partners>
+    <expo-map></expo-map>
+    <fitness-location></fitness-location>
+    <fitness-footer></fitness-footer>
+
+</div>
+
+<!-- CDN FOR FASTER LOAD -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+{% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
+<script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}" defer async></script>
+{% } %}
+
+<script>
+    var then = new Date(2019, 9, 19),
+        now  = new Date();
+    var dayCounter = Math.round((then.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)) + 1;
+    document.getElementById('day-counter').innerHTML = dayCounter;
+</script>
+
+</body>
+</html>

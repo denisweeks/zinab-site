@@ -1,0 +1,166 @@
+<section id="location">
+  <div class="container-fluid">
+    <div class="section-heading scrollpoint sp-effect3">
+      <h1>Контакти</h1>
+      <div class="divider"></div>
+      <p>Виникли запитання</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="scrollpoint sp-effect1">
+          <div id="canvas1" fixmapscroll>
+            <iframe
+              id="map_canvas1"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2166.771800762213!2d24.01928388143016!3d49.77213922697886!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1559218341994!5m2!1sru!2sua"
+              frameborder="0"
+              style="border:0"
+              width="100%"
+              height="365px"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="row">
+          <div class="col-md-6 col-sm-7 col-xs-12 scrollpoint sp-effect1">
+            <p ng-if="vm.error" class="send-email-error">Сталась помилка. Спробуйте пізніше</p>
+
+            <p ng-if="vm.success" class="send-email-success">Ваше повідомлення успішно відправленне</p>
+
+            <form role="form" name="messageForm" novalidate ng-submit="vm.sendMessage(messageForm.$valid,vm.formData)">
+              <div class="form-group">
+                <input type="text" name="name" ng-model="vm.formData.name" class="form-control"
+                       ng-class="{'error': messageForm.name.$invalid && messageForm.$submitted}"
+                       placeholder="Ім’я" required>
+              </div>
+
+              <div class="form-group">
+                <input type="email" name="email" ng-model="vm.formData.email" class="form-control"
+                       ng-class="{'error': messageForm.email.$invalid && messageForm.$submitted}"
+                       placeholder="Поштова скринька" required>
+              </div>
+
+              <div class="form-group">
+                      <textarea cols="30" name="message" rows="10" ng-model="vm.formData.message" class="form-control"
+                                ng-class="{'error': messageForm.message.$invalid && messageForm.$submitted}"
+                                placeholder="Повідомлення" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">Відправити</button>
+            </form>
+          </div>
+          <div class="col-md-6 col-sm-5 col-xs-12 contact-details scrollpoint sp-effect2">
+            <div class="media">
+              <a class="pull-left" href>
+                <i class="fa fa-map-marker"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">м. Львів, Стадіон Арена Львів</h4>
+              </div>
+            </div>
+
+            <div class="media">
+              <a class="pull-left" href="mailto:lvivfitnessweekend@gmail.com">
+                <i class="fa fa-envelope"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  <a href="mailto:lvivfitnessweekend@gmail.com">lvivfitnessweekend@gmail.com</a>
+                </h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <h3 class="contacts">Питання по Експо</h3>
+              <div class="col-lg-12 col-md-12 col-sm-12 col col-xs-12">
+                <img class="contact-avatar pull-left" src="../../../assets/images/contacts/christina.png" alt="Христина">
+                <h3 class="contact-name text-left"> Христина</h3>
+                <div class="media-body">
+                  <p class="contacts">Адміністратор, Менеджер-expo</p>
+                  <h4 class="media-heading media">
+                    <a href="tel:+380931264388"> +38 (063) 386 95 05</a><br>
+                    <a href="mailto:Khrystyna.org@gmail.com">khrystyna.org@gmail.com</a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <!--div class="media">
+              <a class="pull-left" href="tel:+380931264388">
+                <i class="fa fa-phone"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  <a class="tel-number" href="tel:+380686558791"> +38 (068) 655 87 91</a>
+                  <br  class="tel-number">
+                  <a href="tel:+380931264388"> +38 (093) 126 43 88</a>
+                </h4>
+              </div>
+            </div-->
+
+            <!--div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col col-xs-12">
+                <img class="contact-avatar pull-left" src="../../../assets/images/contacts/olya.png"
+                     alt="Оля">
+                <h2 class="contact-name text-left">Оля</h2>
+                <p>реєстрація</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="tel:+380974736315">
+                <i class="fa fa-phone"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="tel:+380974736315"> +38 (097) 473 63 15</a></h4>
+              </div>
+            </div-->
+
+            <!--div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col col-xs-12">
+                <img class="contact-avatar pull-left" src="" alt="Підтримка">
+                <h2 class="contact-name text-left">Підтримка</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="tel:+380673240595">
+                <i class="fa fa-phone"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="tel:+380673240595"> +38 (067) 324 05 95</a></h4>
+              </div>
+            </div-->
+
+            <!--div class="row">
+              <h3 class="contacts">Партнерська спонсорська участь:</h3>
+              <div class="col-lg-12 col-md-12 col-sm-12 col col-xs-12">
+                <img class="contact-avatar pull-left" src="../../../assets/images/organizers/anna_lashchuk.png" alt="Анна">
+                <h3 class="contact-name text-left"> Анна Лащук</h3>
+                <div class="media-body">
+                  <p class="contacts">Звертатись з усіх питань</p>
+                  <h4 class="media-heading media">
+                    <a href="tel:+380679005970"> +38 (067) 900 59 70</a>
+                  </h4>
+                </div>
+              </div>
+            </div-->
+            <!--div class="media">
+              <a class="pull-left" href="tel:+380679005970">
+                <i class="fa fa-phone"></i>
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="tel:+380679005970"> +38 (067) 900 59 70</a></h4>
+              </div>
+            </div-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+  Євгенія : вставте ще контакти на сайт
+  (0679005970  Анна та
+  093 126 43 88 ,
+  0686558791 Христина + її номер який вказаний вже )-->

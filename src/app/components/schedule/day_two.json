@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Сцена 1",
+    "lectures": [
+      {
+        "time": "09:00 09:50",
+        "name": ["Carlos Ramirez"],
+        "instructor": "DOUBLE STEP"
+      },
+      {
+        "time": "10:00 10:50",
+        "name": ["Israel Mallebré"],
+        "instructor": "DYNAMIC FUNCTIONAL MOVEMENT"
+      },
+      {
+        "time": "11:00 11:50",
+        "name": ["Luciano Mottola"],
+        "instructor": "STEP MADE IN ITALY"
+      },
+      {
+        "time": "12:20 13:10",
+        "name": ["Людмила Романів", "Ніна Білаш", "Ольга Кондрат", "Христина Сенчишин"],
+        "instructor": "Sky JUMPING<sup>®</sup> FUNCTIONAL"
+      },
+      {
+        "time": "13:20 14:10",
+        "name": ["Oxana Moshescu", "Віолетта Москаленко", "Наталія Сапарі", "Ліана Крутякова"],
+        "instructor": "Kangoo Dance"
+      },
+      {
+        "time": "14:20 15:10",
+        "name": ["Зінаїда Бондаренко"],
+        "instructor": "BLACKROLL Stretching"
+      },
+      {
+        "time": "15:40 16:30",
+        "name": ["Allegra Deevasis"],
+        "instructor": "STEP DANCE"
+      },
+      {
+        "time": "16:40 17:30",
+        "name": ["Сергій Фальштинський", "Анна Лащук"],
+        "instructor": "DYNAMIC POSTURE"
+      },
+      {
+        "time": "17:40 18:30",
+        "name": ["Лінник Юлія"],
+        "instructor": "STEP"
+      }
+    ]
+  },
+  {
+    "title": "Сцена 2",
+    "lectures": [
+      {
+        "time": "09:00 09:50",
+        "name": ["Назаренко Екатерина", "Макушева Алена", "Чигрецкая Наталья", "Чичикало Ольга"],
+        "instructor": "POWER CHALLENGE"
+      },
+      {
+        "time": "10:00 10:50",
+        "name": ["Альона Теліш"],
+        "instructor": "STREET JAZZ"
+      },
+      {
+        "time": "11:00 11:50",
+        "name": ["Дмитро Пономаренко"],
+        "instructor": "FUNCTIONAL"
+      },
+      {
+        "time": "12:20 13:10",
+        "name": ["Luciano Mottola"],
+        "instructor": "AERODANCE FUSION"
+      },
+      {
+        "time": "13:20 14:10",
+        "name": ["Альона Теліш"],
+        "instructor": "STRIP"
+      },
+      {
+        "time": "14:20 15:10",
+        "name": ["Валентин Горбань", "Інна Горбань"],
+        "instructor": "ATHLETICS"
+      },
+      {
+        "time": "15:40 16:30",
+        "name": ["Альона Теліш", "Дмитро Пономаренко"],
+        "instructor": "HIP HOP"
+      },
+      {
+        "time": "16:40 17:30",
+        "name": ["Remo Stefanic"],
+        "instructor": "DEEPwork"
+      },
+      {
+        "time": "17:40 18:30",
+        "name": ["Катерина Cмірнова"],
+        "instructor": "THE RULES OF THE BONES"
+      }
+    ]
+  },
+  {
+    "title": "Зона функціонального тренінгу",
+    "lectures": [
+      {
+        "time": "09:00 09:50",
+        "name": ["Saul Aparicio"],
+        "instructor": "Bosu 3D"
+      },
+      {
+        "time": "10:00 10:50",
+        "name": ["Сергій Конюшок", "Василь Вірастюк", "Олексій Новіков"],
+        "instructor": "STRONG FIT"
+      },
+      {
+        "time": "11:00 11:50",
+        "name": ["Saul Aparicio"],
+        "instructor": "Bosu 3D extreme"
+      },
+      {
+        "time": "12:20 13:10",
+        "name": ["Сергій Зимовськой"],
+        "instructor": "RIP PROGRESSION"
+      },
+      {
+        "time": "13:20 14:10",
+        "name": ["Сергій Пуцов", "Олександр Довгич"],
+        "instructor": "OXYGEN WORKOUT"
+      },
+      {
+        "time": "14:20 15:10",
+        "name": ["Валерій Кисіль"],
+        "instructor": "CrossFit"
+      },
+      {
+        "time": "15:40 16:30",
+        "name": ["Ярослав Сойніков"],
+        "instructor": "TRX"
+      },
+      {
+        "time": "16:40 17:30",
+        "name": ["Зінаїда Бондаренко", "Олеся Федорченко"],
+        "instructor": "BLACKROLL Function"
+      },
+      {
+        "time": "17:40 18:30",
+        "name": ["Світлана Лучкіна"],
+        "instructor": "TRX"
+      }
+    ]
+  }
+]

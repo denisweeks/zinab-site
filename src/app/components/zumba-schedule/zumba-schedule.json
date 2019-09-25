@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Неділя 20 жовтня",
+    "lectures": [
+      {
+        "id": "0",
+        "time": "8:00-9:00",
+        "instructor": "<b>Registration/реєстрація</b>",
+        "name": [""],
+        "type": "neutral-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "9:00-9:50",
+        "instructor": "Start Zumba<sup>®</sup> Men’s Party",
+        "name": ["Майкл МАХМУТ", "Ярослав СЕНИК", "Влад ОТЛІВАНОВ"],
+        "type": "masterclass-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "9:50-10:00",
+        "instructor": "ПЕРЕРВА",
+        "name": [""],
+        "type": "neutral-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "",
+        "instructor": "Basic skills/Базова майстерність",
+        "name": [""],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "10:00-10:30",
+        "instructor": "Bellydance",
+        "name": ["Ірина КОРСАК"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "10:30-11:00",
+        "instructor": "Salsa Choke",
+        "name": ["Катерина БОЦМАН"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "11:00-11:30",
+        "instructor": "Body Ballet",
+        "name": ["ZES Анастасія ЧАДЮК"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "11:30-12:40",
+        "instructor": "Super Zumba<sup>®</sup> Party",
+        "name": ["Майкл МАХМУТ", "Юлія ЗОСІМОВА", "Ірина КОРСАК", "Катерина БОЦМАН", "та Команда ZIN UA"],
+        "type": "masterclass-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "12:40-13:00",
+        "instructor": "ПЕРЕРВА",
+        "name": [""],
+        "type": "neutral-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "13:00-13:30",
+        "instructor": "Лекція «Побудова кар’єри інструктора Zumba<sup>®</sup> - як уникнути помилок». Питання – відповідь.",
+        "name": ["Юлія ЗОСІМОВА"],
+        "type": "seminar-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "",
+        "instructor": "Basic skills/Базова майстерність",
+        "name": [""],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "13:30-14:00",
+        "instructor": "Reggaeton",
+        "name": ["Майкл МАХМУТ"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "14:00-14:30",
+        "instructor": "Samba",
+        "name": ["Влад ОТЛІВАНОВ"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "14:30-15:00",
+        "instructor": "Tango",
+        "name": ["Ярослав СЕНИК"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "15:00-15:30",
+        "instructor": "Bachata",
+        "name": ["Майкл МАХМУТ"],
+        "type": "workshop-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "15:30-15:45",
+        "instructor": "ПЕРЕРВА",
+        "name": [""],
+        "type": "neutral-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "15:45-17:45",
+        "instructor": "BIG Zumba<sup>®</sup> Party",
+        "name": ["ZES Анастасія ЧАДЮК та Команда ZIN UA"],
+        "type": "masterclass-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "17:45-18:10",
+        "instructor": "ПЕРЕРВА",
+        "name": [""],
+        "type": "neutral-schedule-row",
+        "description": "",
+        "avatar": ""
+      },
+      {
+        "id": "0",
+        "time": "18:10-20:00",
+        "instructor": "*Young ZIN Party – презентація навичок викладання: поради, рекомендації, зворотній зв'язок від ZES та досвідчених ZIN<sup>™</sup>",
+        "name": ["Можуть приймати участь за попередньою реєстрацією всі ZIN UA що викладають менше 2-х років, та всі ZIN, хто бажає і потребує зворотнього зв’язку"],
+        "type": "masterclass-schedule-row",
+        "description": "",
+        "avatar": ""
+      }
+    ]
+  }
+]

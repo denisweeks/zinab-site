@@ -1,0 +1,150 @@
+#forum-tickets {
+  color: black !important;
+  background-size: cover;
+  //background: #66cc99;
+  background: linear-gradient(45deg, #66cc99 0%, #339999 100%);
+
+  padding: 5px 0;
+
+  .platforms {
+    margin: 5px auto 120px auto;
+    text-align: center;
+  }
+
+  .platforms .btn {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  h1, p {
+    color: white;
+  }
+
+  .pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 3em;
+  }
+
+  .pricing__item {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+    flex: 0 1 330px;
+  }
+
+  .pricing__feature-list {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .pricing__action {
+    color: inherit;
+    border: none;
+    background: none;
+  }
+
+  .pricing__action:focus {
+    outline: none;
+  }
+
+  .pricing--pema .pricing__item {
+    //font-family: 'LatoLight', sans-serif;
+    padding: 2em 3em;
+    margin: 1em;
+    color: #262b38;
+    background: #fff;
+    cursor: default;
+    overflow: hidden;
+    //box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+
+  @media screen and (min-width: 66.250em) {
+    .pricing--pema .pricing__item {
+      margin: 1.5em 0;
+    }
+    .pricing--pema .pricing__item--featured {
+      z-index: 10;
+      margin: 0;
+      font-size: 1.15em;
+    }
+  }
+
+  .pricing--pema .pricing__title {
+    font-size: 2em;
+    margin: 0.5em 0 0;
+    color: #1d211f;
+  }
+
+  .pricing--pema .icon {
+    display: inline-block;
+    min-width: 2em;
+    color: #8A9790;
+    vertical-align: middle;
+  }
+
+  .pricing--pema .pricing__price {
+    font-size: 5em;
+    font-weight: 800;
+    color: #6ed19c;
+    position: relative;
+    z-index: 100;
+
+    @media (max-width: 480px) {
+      font-size: 2em;
+    }
+  }
+
+  .pricing--pema .pricing__currency {
+    font-size: 0.5em;
+    vertical-align: super;
+  }
+
+  .pricing--pema .pricing__period {
+    font-size: 0.25em;
+    display: inline-block;
+    padding: 0 0 0 0.5em;
+    color: #CEDED6;
+  }
+
+  .pricing--pema .pricing__sentence {
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    padding: 0 0 0.5em;
+    color: #6ed19c;
+  }
+
+  .pricing--pema .pricing__feature-list {
+    font-size: 0.95em;
+    margin: 0 auto;
+    padding: 1.5em 0.5em 2.5em;
+    list-style: none;
+  }
+
+  .pricing--pema .pricing__feature {
+    padding: 0.15em 0;
+  }
+
+  .pricing--pema .pricing__action {
+    font-weight: bold;
+    margin-top: auto;
+    padding: 1em 2em;
+    color: #fff;
+    border-radius: 5px;
+    background: #6ed19c;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+  }
+
+  .pricing--pema .pricing__action:hover,
+  .pricing--pema .pricing__action:focus {
+    background-color: #4F5F56;
+  }
+
+}

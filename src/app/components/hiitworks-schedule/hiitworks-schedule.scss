@@ -1,0 +1,160 @@
+//.schedule-waiting {
+//  padding: 60px 0;
+//
+//  @media (max-width: 670px) {
+//    padding: 15px 0;
+//  }
+//}
+
+.hiitworks-schedule {
+  padding-bottom: 0;
+
+  .filter {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .filter a {
+    display: inline-block;
+    padding: 7px 20px;
+    text-decoration: none;
+    border-radius: 5em;
+    margin: 5px 5px;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .schedule-table {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+
+    .scene {
+      padding: 20px 0;
+    }
+    .schedule-row {
+      color: #000;
+      display: flex;
+      cursor: default;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      min-height: 45px;
+      width: 98%;
+      padding: 0 15px;
+      margin: 5px auto;
+      border-radius: 30px;
+      background: linear-gradient(-45deg, #66cc99 0%, #339999 100%);
+      border: 1px solid grey;
+
+      .time {
+        flex-basis: 10%;
+      }
+
+      .class {
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 10px;
+        flex-basis: 55%;
+      }
+
+      .people {
+        flex-basis: 35%;
+        .one {
+          display: inline-block;
+          white-space: nowrap;
+          word-break: keep-all;
+        }
+      }
+
+    }
+
+    .masterclass-schedule-row {
+      background: linear-gradient(-45deg, #ffc70f 0%, #ffbf00 100%);
+    }
+    .workshop-schedule-row {
+      background: linear-gradient(-45deg, #81b858 0%, #71ab48 100%);
+    }
+    .seminar-schedule-row {
+      background: linear-gradient(-45deg, #6babe3 0%, #5b9bd4 100%);
+    }
+    .schedule-info {
+      width: 250px;
+      display: inline;
+      padding: 15px;
+    }
+    @media (max-width: 480px) {
+      .schedule-info {
+        display: block;
+      }
+    }
+
+    .price-table {
+      width: 75%;
+      font-size: 13px;
+    }
+    .masterclass-row {
+      background: linear-gradient(-45deg, #ffc70f 0%, #ffbf00 100%);
+      color: #000;
+    }
+    .workshop-row {
+      background: linear-gradient(-45deg, #81b858 0%, #71ab48 100%);
+      color: #000;
+    }
+    .seminar-row {
+      background: linear-gradient(-45deg, #6babe3 0%, #5b9bd4 100%);
+      color: #000;
+    }
+    .day-row {
+      background: linear-gradient(-45deg, #66cc99 0%, #339999 100%);
+      color: #fff;
+      font-weight: bold;
+    }
+    .thead-dark {
+      background: linear-gradient(-45deg, #66cc99 0%, #339999 100%);
+      color: #fff;
+    }
+
+    .text-wait {
+      color: #ff0000;
+    }
+  }
+
+  .hover-affect {
+    &:hover {
+      border-radius: 30px;
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    }
+  }
+
+  .hiit-logo-1, .hiit-logo-2 {
+    display: inline-block;
+  }
+  .hiit-logo-1 img, .hiit-logo-2 img {
+    max-width: 100%;
+    margin-top: -35px;
+  }
+  @media (max-width: 480px) {
+    .hiit-logo-1 img, .hiit-logo-2 img {
+      margin-top: 0;
+    }
+    .hiit-logo-1 {
+      display: block;
+    }
+    .hiit-logo-2 {
+      display: none;
+    }
+  }
+
+  .scene {
+    float: inherit;
+    margin: 0 auto;
+  }
+
+  .btn-primary a {
+    color: #6c9;
+    text-decoration: none;
+  }
+  .btn-primary:hover a {
+    color: #fff;
+  }
+}

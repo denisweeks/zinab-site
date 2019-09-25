@@ -1,0 +1,40 @@
+<section id="forum-presenter">
+  <p>&nbsp;</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+        <div class="section-heading scrollpoint sp-effect3">
+          <h1 class="text-center">Форум управлінців</h1>
+          <div class="divider"></div>
+          <p class="text-center">Презентери форуму</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 hover-affect presenter-wrap scrollpoint" modal-info info="p"
+           ng-class="{'sp-effect1': $index % 2 === 0,'sp-effect2': $index % 2 === 1}" ng-repeat="p in presenters_forum">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-4 col-xs-4 sm-padding">
+            <div class="flex-avatar-height text-flex">
+              <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-12 col-sm-8 col-xs-8 sm-padding">
+            <div class="flex-height text-flex">
+              <h3 class="presenter-name text-center">{{ p.firstName + ' ' + p.lastName}}</h3>
+              <p class="presenter-country text-center no-margin">{{ ::p.country }}</p>
+              <p ng-if="p.class" class="presenter-class text-center">{{ ::p.class }}</p>
+              <div class="text-center" ng-if="p.socialLinks.length > 0">
+                <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg social-icon"
+                   ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

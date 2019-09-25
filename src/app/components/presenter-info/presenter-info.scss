@@ -1,0 +1,73 @@
+.presenter-info {
+  background: white;
+  .modal-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .employment {
+    font-size: 20px;
+  }
+  .description {
+
+    &::first-letter {
+      padding-left: 20px;
+    }
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  @media (max-width: 480px) {
+    .description {
+      font-size: 14px;
+    }
+  }
+
+  .modal-header {
+    .close {
+      margin-top: 7px;
+    }
+  }
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .fa {
+      font-size: 24px;
+    }
+  }
+  .modal-footer {
+    padding: 15px 35px 5px 15px;
+  }
+  .avatar {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    transition: all 0.25s ease-in-out;
+    border: 3px solid #66cc99;
+  }
+  .avatar_btn {
+    width: 115px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    transition: all 0.25s ease-in-out;
+    border: 3px solid #66cc99;
+  }
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    a {
+      margin: 10px;
+      color: #66cc99;
+    }
+  }
+}
+
+// #339999
+
+.center-modal {
+  //top: 22%;
+}

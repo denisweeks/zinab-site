@@ -1,0 +1,56 @@
+[
+  {
+    "title": "2 жовтня 2016р. (неділя)",
+    "lectures": [
+      {
+        "time": "10:00 -11:00",
+        "name": [
+          "Оксана Мукосеева"
+        ],
+        "instructor": "Circuit functional training"
+      },
+      {
+        "time": "11:00 -12:00",
+        "name": [
+          "Юрій Кудряшов"
+        ],
+        "instructor": "Aqua power"
+      },
+      {
+        "time": "12:00 -13:00",
+        "name": [
+          "Анна Федьків"
+        ],
+        "instructor": "Aqua Zumba"
+      },
+      {
+        "time": "14:00 -15:00",
+        "name": [
+          "Віталій Лисенко"
+        ],
+        "instructor": "Aqua Interval"
+      },
+      {
+        "time": "15:00 -16:00",
+        "name": [
+          "Поліна Бонахова"
+        ],
+        "instructor": "Aqua Noodles"
+      },
+      {
+        "time": "16:00 -17:00",
+        "name": [
+          "Валентина Квіта"
+        ],
+        "instructor": "Monstre Traning"
+      },
+      {
+        "time": "17:00 -18:00",
+        "name": [
+          "Елена Котова"
+        ],
+        "instructor": "Aqua Dance Party"
+      }
+    ]
+  }
+]

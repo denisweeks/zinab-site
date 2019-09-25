@@ -1,0 +1,21 @@
+<div class="container" ng-repeat="scheduleDoc in daytwo">
+  <h3>{{ scheduleDoc.title }}</h3>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Час</th>
+      <th>Назва</th>
+      <th>Презентери</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="tItem in scheduleDoc.lectures">
+      <th scope="row">1</th>
+      <td>{{ tItem.time }}</td>
+      <td>{{ tItem.instructor }}</td>
+      <td>{{ tItem.name }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

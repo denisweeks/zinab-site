@@ -1,0 +1,36 @@
+#forum-coaches2018 {
+  .p-center {
+    text-align: center;
+  }
+  table {
+    border: 1px solid #000;
+
+    th, td {
+      border: 1px solid #000;
+      padding: 5px;
+    }
+  }
+  .section-heading {
+    img {
+      width: 35%;
+
+      @media (max-width: 414px) {
+       width: 100%;
+      }
+    }
+    .utro-img {
+      width: 25%;
+
+      @media (max-width: 414px) {
+        width: 100%;
+      }
+    }
+  }
+  .row {
+    margin: 0 25px;
+
+    p, ul {
+      font-size: 16px;
+    }
+  }
+}

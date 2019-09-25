@@ -1,0 +1,59 @@
+<section class="schedule" id="screens">
+  <div class="container">
+    <div class="section-heading scrollpoint sp-effect3">
+      <h1>Програма Lviv Aqua Weekend</h1>
+      <div class="divider"></div>
+    </div>
+
+    <div class="filter scrollpoint sp-effect3">
+      <a href="javascript:void(0)" ng-click="setSchedule(SCHEDULES.ONE)" class="button"
+         ng-class="{ 'active' : SCHEDULES.ONE === currertSchedule }">Семінари</a>
+      <a href="javascript:void(0)" ng-click="setSchedule(SCHEDULES.TWO)" class="button"
+         ng-class="{ 'active' : SCHEDULES.TWO === currertSchedule }">Майстер-класи</a>
+    </div>
+
+    <!--<div class="section-heading">-->
+      <!--<p> Реєстрація 1.10.16 з 7:00 та 2.10.16 з 8:00</p>-->
+    <!--</div>-->
+
+  </div>
+
+  <div class="schedule-table" ng-if="SCHEDULES.ONE === currertSchedule">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 scene" ng-repeat="scene in dayone">
+          <h4 class="text-center fitness-font-xl">{{ ::scene.title }}</h4>
+          <div class="schedule-row" ng-repeat="item in scene.lectures">
+            <span class="time">{{ ::item.time }}</span>
+            <span class="class">{{ ::item.instructor }}</span>
+            <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name}} <br></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="schedule-table" ng-if="SCHEDULES.TWO === currertSchedule">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-8-offset-2 col-sm-12 col-xs-12 scene" ng-repeat="scene in daytwo">
+          <h4 class="text-center fitness-font-xl">{{ ::scene.title }}</h4>
+          <div class="schedule-row" ng-repeat="item in scene.lectures">
+            <span class="time">{{ ::item.time }}</span>
+            <span class="class">{{ ::item.instructor }}</span>
+            <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name}} <br></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<div class="container-fluid">-->
+  <!--<br>-->
+  <!--<div class="row">-->
+  <!--<div class="col-xs-12">-->
+  <!--<a href="schedule.pdf" target="_blank" class="btn btn-primary pull-right">Скачати</a>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--<br>-->
+  <!--</div>-->
+</section>

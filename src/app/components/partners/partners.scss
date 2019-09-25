@@ -1,0 +1,58 @@
+/*-----------------------------------------------------  partners -------------------------------------------------*/
+.partners {
+  &.partners-bg-img {
+    background-size: cover;
+    //background-image: url("../../../assets/images/bk-eco.jpg");
+  }
+  .section-heading {
+    margin: 25px auto;
+  }
+
+  .partners-logos {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    a {
+      flex-basis: 200px;
+      @media screen and (max-width: 480px) {
+        flex-basis: auto;
+      }
+    }
+
+    .logo-long {
+      margin: 10px;
+      width: 250px;
+      height: auto;
+      @media screen and (max-width: 480px) {
+        width: 150px;
+      }
+    }
+
+    .logo-short {
+      margin: 10px;
+      width: 100px;
+      height: auto;
+      @media screen and (max-width: 480px) {
+        width: 70px;
+      }
+    }
+
+    .logo {
+      margin: 10px;
+      width: 150px;
+      height: auto;
+      @media screen and (max-width: 480px) {
+        width: 70px;
+      }
+    }
+  }
+
+  .partners-logos a {
+    flex-basis: 350px;
+    text-align: center;
+    font-size: 24px;
+  }
+}

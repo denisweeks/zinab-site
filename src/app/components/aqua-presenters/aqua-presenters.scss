@@ -1,0 +1,115 @@
+#aqua-presenter {
+  background: white;
+
+  .social-icon {
+    color: #66cc99;
+  }
+  .avatar {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    transition: all 0.25s ease-in-out;
+    border: 3px solid #66cc99;
+
+    @media (max-width: 768px) {
+      width: 95px;
+      height: 95px;
+    }
+
+    @media (max-width: 768px) and (orientation: landscape) {
+      width: 125px;
+      height: 125px;
+    }
+    @media (max-width: 960px) {
+      width: 115px;
+      height: 115px;
+    }
+
+
+  }
+
+  .hover-affect {
+    &:hover {
+      border-radius: 10px;
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    }
+  }
+
+  .presenter-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+  $height-lg: 150px;
+  $height-md: 130px;
+
+  $height-sm: 125px;
+
+  $height-xs: 150px;
+
+  .flex-height {
+    height: $height-lg;
+    min-height: $height-lg;
+
+    @media (min-width: 960px) and (max-width: 1200px) {
+      height: $height-md;
+      min-height: $height-md;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      height: $height-sm;
+      min-height: $height-sm;
+    }
+  }
+
+
+  $height-avatar-lg: 150px;
+  $height-avatar-md: 130px;
+
+  $height-avatar-sm: 125px;
+  $height-avatar-xs: 150px;
+
+  .flex-avatar-height {
+    height: $height-avatar-lg;
+    min-height: $height-avatar-lg;
+
+    @media (min-width: 960px) and (max-width: 1200px) {
+      height: $height-avatar-md;
+      min-height: $height-avatar-md;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      height: $height-avatar-sm;
+      min-height: $height-avatar-sm;
+    }
+  }
+
+  .text-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .presenter-class {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .presenter-name {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .sm-padding {
+    padding: 5px;
+  }
+}

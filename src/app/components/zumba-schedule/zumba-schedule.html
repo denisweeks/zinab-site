@@ -1,0 +1,94 @@
+<section class="zumba-schedule">
+  <div class="container">
+    <div class="section-heading scrollpoint sp-effect3">
+      <div class="zumba-logo-1"><img src="../../../assets/images/btns/zumba_ava.png"></div>
+      <h1>Програма ЛЬВІВ ZUMBA<sup>®</sup> FEST</h1>
+      <div class="zumba-logo-2"><img src="../../../assets/images/btns/zumba_ava.png"></div>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <div class="schedule-table">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 scene" ng-repeat="scene in zumbaschedule">
+          <h4 class="text-center fitness-font-xl">{{ ::scene.title }}</h4>
+          <div modal-info info="item" ng-repeat="item in scene.lectures">
+            <div class="schedule-row {{item.description?'hover-affect':''}} ng-class:item.type">
+              <span class="time">{{ ::item.time }}</span>
+                <!--<span class="class {{item.time?'font-weight-bold':''}}" ng-click="select(item.id);">
+                  {{ ::item.instructor }}&nbsp;<i class="fa fa-arrow-down"  ng-if="item.description"></i>
+                </span>-->
+
+                <span class="class">
+                  <span class="{{item.time.length<=0?'text-weight-bold':''}}" ng-bind-html="::item.instructor"></span>
+                  <i class="fa fa-arrow-down"  ng-if="item.description"></i>
+                </span>
+
+              <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name}} <br></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <table class="table price-table" align="center">
+        <thead class="thead-dark">
+        <tr>
+          <th scope="col">Формат</th>
+          <th scope="col">Вартість</th>
+          <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="day-row">
+          <td scope="row">Пакет день</td>
+          <td colspan="2">
+            1500 грн (14 жовтня – 20 жовтня), 1300 грн (до 14 жовтня), 1099 грн (early birds з 18 серпня – 31 серпня)
+          </td>
+        </tr>
+        <tr class="day-row">
+          <td scope="row">Участь в якості презентера у Young ZIN Party</td>
+          <td>600 грн</td>
+          <td>Для ZIN, за попередньою заявкою та реєстрацією</td>
+        </tr>
+        <tr class="day-row">
+          <td scope="row">1 МК Базова майстерність</td>
+          <td>250 грн</td>
+          <td></td>
+        </tr>
+        <tr class="day-row">
+          <td scope="row">1 Zumba<sup>®</sup> Party</td>
+          <td>350 грн</td>
+          <td></td>
+        </tr>
+        <tr class="cert-row">
+          <td scope="row" colspan="3">Всі учасники конвенції отримають «Сертифікат учасника конвенції»</td>
+        </tr>
+        <tr class="cert-row">
+          <td scope="row" colspan="3">Всі презентери отримають «Сертифікат презентера конвенції»</td>
+        </tr>
+        </tbody>
+      </table>
+
+      <div class="text-center">
+        <button type="button" class="btn btn-primary btn-lg">
+          <span><a href="https://docs.google.com/forms/d/e/1FAIpQLSfg77d4LSQLSss7tsbYEBNbnQ8gU9XsrbhB8Z0VVMj7stl5lA/viewform" target="_blank">Реєстрація</a></span>
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin: 0 auto; float: inherit;">
+          <h3 class="card-title text-center">
+            Інформація і питання:<br>
+            <a href="tel:+380676840080">+380 67 684 00 80</a><br>
+            <a href="tel:+380992426275">+380 99 242 62 75</a>
+          </h3>
+        </div>
+      </div>
+
+      <br>
+
+    </div>
+  </div>
+</section>

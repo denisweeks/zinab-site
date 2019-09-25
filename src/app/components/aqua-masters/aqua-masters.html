@@ -1,0 +1,88 @@
+<section id="workshops">
+  <div class="container-fluid">
+    <div class="section-heading scrollpoint sp-effect3">
+      <h1>Майстер Класи </h1>
+      <div class="divider"></div>
+      <p>Вартість майстер класів <span class="workshop-price">600 грн.</span> до 24.09.2016 после <span
+              class="workshop-price">800 грн.</span> (7 майстер класів)</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-xs-12 scrollpoint sp-effect5 workshop" ng-repeat="workshop in workshops">
+        <h3 class="workshop-name">{{ workshop.name }}</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 lecture"
+                   ng-class="{ 'col-xs-12': workshop.lecturers.length === 1, 'col-xs-6': workshop.lecturers.length === 2
+                                      }" ng-repeat="lecture in workshop.lecturers">
+                <img ng-if="lecture.avatar" ng-src="{{lecture.avatar}}"
+                     alt="{{lecture.firstName + ' ' + lecture.lastName}}">
+                <h3 class="lecture-name">{{lecture.firstName }} <br ng-if="lecture.two"> {{ lecture.lastName}}</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div>
+              <p class="inline">Дата: {{ workshop.date_info.date }}</p><br>
+              <p class="inline">Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p><br>
+              <p class="inline">Тривалість: {{ workshop.duration }}</p><br>
+              <p class="inline" ng-show="workshop.people">Кількість учасників: {{ workshop.people }}</p>
+            </div>
+            <p>Зал: {{ workshop.location }}</p>
+
+            <!--<p class="workshop-price">Вартість: {{ workshop.price }} <span ng-show="!workshop.price.length">грн</span>-->
+            <!--</p>-->
+            <!--<p class="description" ng-text-truncate="workshop.description"-->
+            <!--ng-tt-chars-threshold="160"-->
+            <!--ng-tt-more-label="Читати повністю"-->
+            <!--ng-tt-less-label="Сховати"></p>-->
+
+          </div>
+        </div>
+        <div class="pull-right">
+          <a href="#aqua-registration">
+            <button type="button" class="btn btn-primary btn-lg" style="padding: 10px">Зареєструватись</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="coaches-certification">
+  <div id="aqua-registration" class="container list-block">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-xs-12 middle-border">
+        <h4 class="text-center list-tittle height-light">Реєстрація на Lviv Aqua Weekend за телефоном</h4>
+        <p class="text-center">Членам УФА знижка 10 %</p>
+        <ul class="coach-list no-list-style">
+          <li class="text-left">
+            <a href="tel:+380503882680">
+              <i class="fa fa-phone"></i>
+              <span>(050) 388-26-80</span>
+              <span>Віра</span>
+            </a>
+          </li>
+
+          <li class="text-left">
+            <a href="tel:+380503882670">
+              <i class="fa fa-phone"></i>
+              <span>(050) 388-26-70</span>
+              <span>Ліда</span>
+            </a>
+          </li>
+
+          <li class="text-left">
+            <a href="mailto:ukrfit@gmail.com">
+              <i class="fa fa-envelope"></i>
+              <span>ukrfit@gmail.com</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+area {
+  //display: block;
+  border: 1px solid red;
+}
+.desktop-pdf {
+  width: 768px;
+  height: 480px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+.mobile-pdf {
+  display: none;
+  border: none;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .desktop-pdf {
+    width: 420px;
+    height: 284px;
+  }
+}
+@media (max-width: 480px) {
+  .mobile-pdf {
+    display: block;
+    width: 288px;
+    height: 168px;
+  }
+  .desktop-pdf {
+    display: none;
+  }
+}

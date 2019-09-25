@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Сцена 1",
+    "lectures": [
+      {
+        "time": "09:00 09:50",
+        "name": ["Andreas Goller"],
+        "instructor": "FUNCTIONAL LAG"
+      },
+      {
+        "time": "10:00 10:50",
+        "name": ["Israel Mallebré"],
+        "instructor": "STEP"
+      },
+      {
+        "time": "11:00 11:50",
+        "name": ["Andreas Goller"],
+        "instructor": "JUST MINUTES"
+      },
+      {
+        "time": "12:20 13:10",
+        "name": ["Carlos Ramirez"],
+        "instructor": "VERTICAL STEP"
+      },
+      {
+        "time": "13:20 14:10",
+        "name": ["Oxana Moshescu", "Віолетта Москаленко", "Наталія Сапарі", "Ліана Крутякова"],
+        "instructor": "Kangoo Kick&Punch"
+      },
+      {
+        "time": "14:20 15:10",
+        "name": ["Allegra Deevasis"],
+        "instructor": "AEROBIC DANCE"
+      },
+      {
+        "time": "15:40 16:30",
+        "name": ["Людмила Романів", "Ніна Білаш", "Ольга Кондрат", "Христина Сенчишин"],
+        "instructor": "Sky JUMPING<sup>®</sup> Party"
+      },
+      {
+        "time": "16:40 17:30",
+        "name": ["Катерина Хабарова", "Leyla Mamedova Laroix"],
+        "instructor": "PILOXING<sup>®</sup> SSP"
+      },
+      {
+        "time": "17:40 18:30",
+        "name": ["Remo Stefanic"],
+        "instructor": "bodyART"
+      }
+    ]
+  },
+  {
+    "title": "Сцена 2",
+    "lectures": [
+      {
+        "time": "09:00 09:50",
+        "name": ["Максим Довбуш"],
+        "instructor": "DANCE MOVE"
+      },
+      {
+        "time": "10:00 10:50",
+        "name": ["Idan Vandrariu", "Зінаїда Бондаренко"],
+        "instructor": "BLACKROLL PRO"
+      },
+      {
+        "time": "11:00 11:50",
+        "name": ["Ліана Крутякова", "Ірина Бойко", "Ірина Корсак"],
+        "instructor": "STRONG by ZUMBA"
+      },
+      {
+        "time": "12:20 13:10",
+        "name": ["Тала Полянська", "Вікторія Можевітіна"],
+        "instructor": "bodyART"
+      },
+      {
+        "time": "13:20 14:10",
+        "name": ["Катерина Хабарова", "Leyla Mamedova Laroix"],
+        "instructor": "PILOXING<sup>®</sup> Knockout"
+      },
+      {
+        "time": "14:20 15:10",
+        "name": ["Катерина Cмірнова"],
+        "instructor": "PILATES STANDING"
+      },
+      {
+        "time": "15:40 16:30",
+        "name": ["Ярослав Сойніков"],
+        "instructor": "PROCEDOS"
+      },
+      {
+        "time": "16:40 17:30",
+        "name": ["Катерина Cмірнова"],
+        "instructor": "PILATES PRINCIPLES IN MOTION"
+      },
+      {
+        "time": "17:40 18:30",
+        "name": ["Валентин Горбань", "Інна Горбань"],
+        "instructor": "FUNCTIONAL INTERVAL TRAINING"
+      }
+    ]
+  },
+  {
+    "title": "Зона функціонального тренінгу",
+    "lectures": [
+      {
+        "time": "09:00 09:50",
+        "name": ["Сергій Зимовськой"],
+        "instructor": "TRX RIP FUSION"
+      },
+      {
+        "time": "10:00 10:50",
+        "name": ["Валерій Кисіль"],
+        "instructor": "CROSSFIT"
+      },
+      {
+        "time": "11:00 11:50",
+        "name": ["Сергій Конюшок", "Василь Вірастюк", "Олексій Новіков"],
+        "instructor": "STRONG FIT"
+      },
+      {
+        "time": "12:20 13:10",
+        "name": ["Дмитро Пономаренко"],
+        "instructor": "FIRE FOR FUNCTIONAL"
+      },
+      {
+        "time": "13:20 14:10",
+        "name": ["Marek Mrozcek"],
+        "instructor": "TRX"
+      },
+      {
+        "time": "14:20 15:10",
+        "name": ["Idan Vandrariu"],
+        "instructor": "TRAIN the LINES of MOVEMENT"
+      },
+      {
+        "time": "15:40 16:30",
+        "name": ["Світлана Лучкіна"],
+        "instructor": "TRX",
+        "img": "pink.png"
+      },
+      {
+        "time": "16:40 17:30",
+        "name": ["Marek Mrozcek"],
+        "instructor": "TRX"
+      },
+      {
+        "time": "17:40 18:30",
+        "name": ["Сергій Зимовськой"],
+        "instructor": "RIP TABATA"
+      }
+    ]
+  }
+]

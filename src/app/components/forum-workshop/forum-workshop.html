@@ -1,0 +1,49 @@
+<section id="workshops" style="background: #f6f6f6 !important;">
+  <div class="container-fluid">
+    <div class="section-heading scrollpoint sp-effect3">
+      <h1>PreForum</h1>
+      <div class="divider"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-12  col-xs-12 scrollpoint sp-effect5 workshop col-lg-push-2 col-md-push-2"
+           ng-repeat="workshop in workshops">
+        <h3 class="workshop-name">{{ workshop.name }}</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 lecture"
+                   ng-class="{
+                              'col-xs-12': workshop.lecturers.length === 1,
+                              'col-xs-12': workshop.lecturers.length === 2,
+                              'col-xs-12': workshop.lecturers.length === 3
+                              }" ng-repeat="lecture in workshop.lecturers">
+                <img ng-if="lecture.avatar" ng-src="{{lecture.avatar}}" alt="{{lecture.firstName + ' ' + lecture.lastName}}">
+                <h3 class="lecture-name">{{ lecture.firstName }} {{ lecture.lastName}}</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div>
+              <p class="inline">Дата: {{ workshop.date_info.date }}</p>
+              <p class="inline">Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p><br>
+              <p class="inline">Тривалість: {{ workshop.duration }}</p><br>
+              <p class="inline" ng-show="workshop.people">Кількість учасників обмежена: ({{ workshop.people }} чоловік)</p>
+            </div>
+            <p>Зал: {{ workshop.location }}</p>
+            <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
+            <!--p>тільки до 20 серпня 2018</p-->
+            <p class="description" ng-text-truncate="workshop.description"
+               ng-tt-chars-threshold="999999"
+               ng-tt-more-label=""
+               ng-tt-less-label=""></p>
+          </div>
+        </div>
+        <div class="pull-right">
+          <button type="button"  class="btn btn-primary btn-lg"  ng-click="openWidget(50025,1160849)">Квиток</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

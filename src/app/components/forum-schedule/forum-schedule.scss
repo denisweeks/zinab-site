@@ -1,0 +1,71 @@
+//.schedule-waiting {
+//  padding: 60px 0;
+//
+//  @media (max-width: 670px) {
+//    padding: 15px 0;
+//  }
+//}
+
+.forum-schedule {
+  padding-bottom: 0;
+
+  .filter {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .filter a {
+    display: inline-block;
+    padding: 7px 20px;
+    text-decoration: none;
+    border-radius: 5em;
+    margin: 5px 5px;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .schedule-table {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+
+    .scene {
+      padding: 20px 0;
+    }
+    .schedule-row {
+      color: white;
+      display: flex;
+      cursor: default;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      min-height: 45px;
+      width: 98%;
+      padding: 0 15px;
+      margin: 5px auto;
+      border-radius: 30px;
+      background: linear-gradient(-45deg, #66cc99 0%, #339999 100%);
+      border: 1px solid grey;
+
+      .time {
+        flex-basis: 20%;
+      }
+
+      .class {
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 10px;
+        flex-basis: 60%;
+      }
+
+      .people {
+        flex-basis: 20%;
+        .one {
+          display: inline-block;
+          white-space: nowrap;
+          word-break: keep-all;
+        }
+      }
+
+    }
+  }
+}

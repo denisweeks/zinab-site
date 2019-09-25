@@ -1,0 +1,24 @@
+<section class="presenter-info">
+  <div class="modal-header">
+    <button type="button" class="close" ng-click="vm.close()" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <h4 class="modal-title" ng-if="vm.info.firstName">{{ vm.info.firstName + ' ' + vm.info.lastName }}</h4>
+    <h4 class="modal-title" ng-if="vm.info.instructor" ng-bind-html="vm.info.instructor"></h4>
+  </div>
+
+  <div class="modal-body" ng-swipe-left="vm.close()" ng-swipe-right="vm.close()">
+    <img class="{{vm.info.firstName ? 'avatar' : 'avatar_btn'}}" ng-src="{{ vm.info.avatar }}" alt="{{ vm.info.firstName + ' ' + vm.info.lastName }}">
+    <h6 class="employment">{{ vm.info.employment }}</h6>
+    <div class="social-links">
+      <div class="social">
+        <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg" ng-repeat="s in vm.info.socialLinks" ng-class="s.icon"></a>
+      </div>
+    </div>
+    <p class="description" ng-bind-html="vm.info.description"></p>
+  </div>
+
+  <div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="vm.close()">OK</button>
+  </div>
+</section>
