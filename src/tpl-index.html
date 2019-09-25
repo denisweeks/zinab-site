@@ -9,12 +9,12 @@
   <meta name="author" content="Анна Лащук">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
 
-  <meta property="og:url"  content="http://lviv-fitness.com"/>
+  <meta property="og:url"  content="http://bodyway.com.ua"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Lviv Fitness Weekend 19.10-20.10.2019"/>
-  <meta property="og:site_name" content="Lviv Fitness Weekend"/>
+  <meta property="og:title" content="BodyWay — Lviv Fitness Weekend 19.10-20.10.2019"/>
+  <meta property="og:site_name" content="BodyWay"/>
   <meta property="og:description" content=""/>
-  <meta property="og:image" content="http://lviv-fitness.com/open_graph_logo.png"/>
+  <meta property="og:image" content="http://bodyway.com.ua/open_graph_logo.png"/>
   <meta property="og:image:type" content="image/png"/>
   <meta property="og:locale" content="uk_UA"/>
 
@@ -36,22 +36,24 @@
     ga('send', 'pageview');
 
   </script>
-  <!-- Facebook Conversion Code for LvivFitnessWeek -->
-  <script>(function() {
-    var _fbq = window._fbq || (window._fbq = []);
-    if (!_fbq.loaded) {
-      var fbds = document.createElement('script');
-      fbds.async = true;
-      fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(fbds, s);
-      _fbq.loaded = true;
-    }
-  })();
-  window._fbq = window._fbq || [];
-  window._fbq.push(['track', '880227392362197', {'value':'0.01','currency':'RUB'}]);
-  </script>
-  <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=880227392362197&cd[value]=0.01&cd[currency]=RUB&noscript=1" /></noscript>
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '880227392362197');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=880227392362197&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
   
   <script>
       window.onload = function () {
@@ -133,7 +135,6 @@
     <mindbody-schedule></mindbody-schedule>
 
     <a id="seminars"></a>
-    <hiitworks-workshops></hiitworks-workshops>
 
     <!--fitness-schedule></fitness-schedule>
     <a id="buy_tickets"></a>
