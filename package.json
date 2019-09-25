@@ -11,7 +11,7 @@
     "Placeholdem": "git+https://github.com/jackrugile/placeholdem.git#v1.0.1",
     "angular": "^1.5.9",
     "angular-touch": "1.5.8",
-    "angular-ui-bootstrap": "^1.3.2",
+    "angular-ui-bootstrap": "^1.3.3",
     "body-parser": "^1.15.1",
     "bootstrap": "^3.3.2",
     "cross-env": "^1.0.8",
