@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports.EMAILS = ["akoval.m@gmail.com","lvivfitnessweekend@gmail.com"];
+module.exports.EMAILS = ["denisweeks@gmail.com","info@bodyway.com.ua"];
