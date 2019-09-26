@@ -78,9 +78,9 @@ export default function (module) {
                      </button>
                   </div>
                   <div class="pull-right" ng-if="!workshop.discount && workshop.btn_link">
-                    <button type="button"  class="btn btn-primary btn-lg">
+                   <a class="workshop-btn" target="_blank" href="{{workshop.btn_link}}"> <button type="button"  class="btn btn-primary btn-lg">
                      <span><a class="workshop-btn" target="_blank" href="{{workshop.btn_link}}">Реєстрація</a>
-                     </button>
+                     </button></a>
                   </div>
                   
                   <div class="clearfix"></div>
