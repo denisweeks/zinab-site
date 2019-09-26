@@ -6,7 +6,7 @@ module.exports = function (env) {
   switch (env) {
     case 'develop':
     {
-      port = 3000;
+      port = 80;
       break;
     }
     case 'production':
@@ -16,7 +16,7 @@ module.exports = function (env) {
     }
     default:
     {
-      port = 3000;
+      port = 80;
     }
   }
 
