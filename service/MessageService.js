@@ -3,10 +3,10 @@ const emails = require('./emails');
 const email_template = require('./email_template');
 
 var transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
+  host: 'mail.adm.tools',
   port: 465,
   secure: true,
-  auth: {user: "lviv.fitness.dev@gmail.com", pass: "fitness.lviv"}
+  auth: {user: "info@bodyway.com.ua", pass: "3ADlF0iZ1f7s"}
 });
 
 module.exports.sendMessage = function (name, email, message) {
