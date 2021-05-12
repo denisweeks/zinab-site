@@ -21,7 +21,7 @@
     "i18n": "^0.8.3",
     "jquery": "^1.9",
     "jquery-waypoints": "git+https://github.com/imakewebthings/waypoints.git#v2.0.3",
-    "nodemailer": "^2.3.2",
+    "nodemailer": "^6.4.16",
     "slick-carousel": "^1.5.9"
   },
   "devDependencies": {
